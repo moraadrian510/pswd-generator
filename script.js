@@ -62,8 +62,6 @@ function writePassword() {
 
   passwordText.value = password;
 
-  // copyBtn.removeAttribute("disabled");
-  // copyBtn.focus();
 }
 
 function copyToClipboard() {
