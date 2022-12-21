@@ -88,6 +88,12 @@ header {
   cursor: pointer;
 }
 
+.btn:hover {
+  background-color: rgb(255, 162, 0);
+  font-size: 24px;
+  box-shadow: 3px 3px 7px rgb(199, 32, 32);
+}
+
 button[disabled] {
   cursor: default;
   background: #c0c7cf;
