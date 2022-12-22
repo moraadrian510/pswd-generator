@@ -21,17 +21,14 @@ function generatePassword() {
 
   if (numbers){
     resultArray = resultArray.concat(numbArray);
-  
 }
 
 if (uppercases){
   resultArray = resultArray.concat(uppercaseArray);
-
 }
 
 if (lowercases){
   resultArray = resultArray.concat(lowercaseArray);
-
 }
 
 if (characters){
@@ -41,10 +38,8 @@ console.log(resultArray)
 
 
 for (var i = 0; i < numCharacter; i++) {
-      
   userArray.push (resultArray[Math.floor(Math.random() * resultArray.length)]); 
   }
-
   return userArray.join("") ;
 }
 
